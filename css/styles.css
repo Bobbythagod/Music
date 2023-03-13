@@ -198,7 +198,6 @@ nav li a:hover {
   color: #373684;
   background-color: #e5e9fc;
 }
-
 /* Desktop Viewport: Style rules for main content */
 #info ul {
   margin-left: 5%;
@@ -209,19 +208,14 @@ main h3 {
 #piano, #guitar, #violin {
   width: 29%;
   float: left;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin: 0 2%;
+}
 }
 
-}
- /* Media Query for Print */
-@media print and (min-width: 500px), print {
+/* Media Query for print */
+@media print, print {
   body {
     background-color: #fff;
     color: #000;
   }
 }
-
-/*Hello */
