@@ -129,7 +129,7 @@ iframe {
 }
 
 /* Style rules for contact content*/
-#contact {
+#contact, #rental h2, #form h2 {
   text-align: center;
 }
 
@@ -160,6 +160,60 @@ iframe {
   height: 50%;
 }
 
+/* Style rules for table elements */
+table {
+    border: 1px solid #373684;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+ 
+caption {
+    font-size: 1.5em;
+    font-weight: bold; 
+    padding: 1%;
+}
+ 
+th, td {
+    border: 1px solid #373684;
+    padding: 2%; 
+}
+ 
+th {
+    background-color: #373684;
+    color: #fff;
+    font-size: 1.15em;
+}
+ 
+tr:nth-child(odd) {
+    background-color: #b7b7e1;  
+}
+
+/* Style rules for form elements */
+fieldset, input {
+  margin-bottom: 2%;
+}
+
+fieldset, legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+label {
+  display: block;
+  padding-top: 3%;
+}
+
+form #submit {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 3%;
+  background-color: #b7b7e1;
+  font-size: 1em;
+}
 /* Style rules for footer content*/
 footer {
   text-align: center;
@@ -211,7 +265,14 @@ nav li:last-child {
   width: 500px;
   height: 450px;
 }
-
+/* Tablet Viewport: Style rule for form element */
+form {
+  width: 70%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
 /* Tablet Viewport: Style rule for grid */
 .grid {
   display: grid;
@@ -264,6 +325,21 @@ aside {
 
 figcaption {
   font-size: 1em;
+}
+
+/* Desktop viewport: Style rules for table element */
+table {
+  width: 70%;
+}
+/* Desktop Viewport: Style rules for form elements */
+form-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.btn {
+  grid-column: 1 /span 2;
 }
 
 }
