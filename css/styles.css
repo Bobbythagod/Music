@@ -63,6 +63,7 @@ header {
 }
 header h1 {
   font-family: 'DM Serif Display', serif;
+  font-style: italic;
 }
 /* Style rules for navigation area */
 nav {
@@ -124,9 +125,9 @@ main p {
   border-radius: 8px;
 }
 
-iframe {
+/* iframe {
   border: none;
-}
+} */
 
 /* Style rules for contact content*/
 #contact, #rental h2, #form h2 {
@@ -194,7 +195,7 @@ fieldset, input {
   margin-bottom: 2%;
 }
 
-fieldset, legend {
+fieldset legend {
   font-weight: bold;
   font-size: 1.25em;
 }
@@ -270,8 +271,8 @@ form {
   width: 70%;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* Tablet Viewport: Style rule for grid */
 .grid {
@@ -345,7 +346,7 @@ form-grid {
 }
 
 /* Media Query for print */
-@media print, print {
+@media print {
   body {
     background-color: #fff;
     color: #000;
