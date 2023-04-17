@@ -25,10 +25,23 @@ Date:2/6/2023
 
 
 <body>
+  <!-- Mobile Nav -->  
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="lessons.html">Lessons</a>
+            <a href="instructors.html">Instructors</a>
+            <a href="rentals.html">Rentals</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
 <header>
   <h1> <span class="tab-desk">&#9836;</span> Strike a Chord <span class="tab-desk">&#9836;</span> </h1>
   </header>
-<nav>
+<nav class="tab-desk">
   <ul>
   <li><a href="index.html">Home </a></li>
   <li><a href="lessons.html">Lessons </a></li>
@@ -55,6 +68,7 @@ Date:2/6/2023
   <p>&copy; Copyright 2021. All rights Reserved.</p>
   <a href="mailto:email@example.com">Send Email</a>
   </footer>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
